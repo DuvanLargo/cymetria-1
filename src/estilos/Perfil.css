@@ -1,0 +1,50 @@
+.contenedor-principal {
+    background: #b763c1;
+}
+.contenedor-perfil{
+    width: 800px;
+    height: 260px;
+    display: flex;
+    background-color: #8948a6;
+    align-items: center;
+    border-radius: 10px;
+    margin:auto;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 0.3s ease;
+  }
+
+.contenedor-perfil:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-family: none;
+    font-size: -webkit-xxx-large;
+}
+
+.imagen-perfil{
+    height: auto;
+    width: 230px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.contenedor-texto-perfil{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 680;
+    line-height: 1rem;
+    margin-right: 40px;
+}
+.pais-perfil{
+    font-family: cursive;
+}
+.cargo-perfil{
+    font-family: cursive;
+}
+.resena-perfil{
+    font-size: medium;
+    text-align: justify;
+}
